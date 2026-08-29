@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "XENOVA Investment",
+    "slug": "xenova-investment",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow XENOVA to access your photos.",
+          "cameraPermission": "Allow XENOVA to access your camera.",
+          "microphonePermission": "Allow XENOVA to access your microphone."
+        }
+      ]
+    ]
+  }
+}
